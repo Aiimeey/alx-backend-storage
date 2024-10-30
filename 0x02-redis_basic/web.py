@@ -37,9 +37,8 @@ def get_page(url: str) -> str:
 
 if __name__ == '__main__':
     # Test the get_page function
-    test_url = "http://slowwly.robertomurray.co.uk\
-    /delay/5000/url/http://example.com"
-
+    test_url = "http://slowwly.robertomurray.co.uk/delay/5000/" \
+                "url/http://example.com"
     print("Fetching page...")
     page_content = get_page(test_url)
     print("Page fetched!")
